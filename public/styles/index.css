@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.header-containter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.first-background-color-unused {
+    background-color: royalblue;
+    opacity: 0.8;
+}
+
+.first-background-color {
+    background-color: #96c8fb;
+    background-image: linear-gradient(315deg, #96c8fb 0%, #ddbdfc 74%);
+}
+
+.header-button {
+    color: black;
+    padding: 1em 2em;
+    border: 2px, solid, royalblue;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'Otomanopee One', serif;
+
+}
+
+.header-button:hover {
+    text-shadow: 0.5px 0.5px;
+    transition: 0.2s;
+}
+
+.footer-container{
+    display: flex;
+}
+
+.icon-size{
+ font-size: 2em;
+}
+
+.icon-set{
+    margin: 0.5em;
+}
+.email{
+    margin: auto;
+}
+
+main{
+    height: 30vh;
+}
