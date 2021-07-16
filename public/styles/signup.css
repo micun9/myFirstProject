@@ -1,0 +1,54 @@
+main {
+    font-family: 'Otomanopee One', serif;
+    font-size: 1em;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.form-label {
+    margin: 1em;
+    background-color: #96c8fb;
+    background-image: linear-gradient(315deg, #96c8fb 0%, #ddbdfc 74%);
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.field-set {
+    border: 2px solid #96c8fb;
+    border-radius: 5px;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 0.4em 0.5em;
+    box-sizing: border-box;
+    margin: 0.5em;
+    font-family: 'Otomanopee One', serif;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.signup-button {
+    color: black;
+    padding: 1em 2em;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Otomanopee One', serif;
+    background-color: #96c8fb;
+    background-image: linear-gradient(315deg, #96c8fb 0%, #ddbdfc 74%);
+    margin-top: 1em;
+}
